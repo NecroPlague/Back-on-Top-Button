@@ -1,0 +1,23 @@
+@import url(Reset.css);
+
+
+#mydiv  {
+    height: 4000px;
+}
+
+#gototop    {
+    width: 100px;
+    height: 70px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    display: none;
+}
+
+#gototop  svg {
+    font-size: 20px;
+}
+
+#gototop:hover  { 
+    cursor: pointer;
+}
